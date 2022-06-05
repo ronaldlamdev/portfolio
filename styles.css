@@ -1,6 +1,3 @@
-* {
-  border: 1px solid gray;
-}
 
 :root {
   --navBG: #be3144;
@@ -14,7 +11,11 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: flex-end;
   align-items: center;
   background-color: var(--navBG);
 }
@@ -22,8 +23,9 @@ body, h1, h2, h3, h4, h5, h6, p {
 .nav-links {
   list-style: none;
   display: flex;
-  width: 30%;
+  width: 20%;
   justify-content: space-between;
+  margin-right: 5em;
 }
 
 .nav-links > li {
@@ -37,9 +39,4 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 .nav-links > li > a:hover {
   color: black;
-}
-
-.profile-img {
-  width: 5%;
-  border-radius: 50%;
 }
