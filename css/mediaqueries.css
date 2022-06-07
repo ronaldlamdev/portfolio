@@ -12,9 +12,12 @@
     flex-direction: row;
   }
 
+  .menu a {
+    font-size: 1.1rem;
+  }
+
   .menu a:hover {
     background-color: transparent;
-    color: var(--gray);
   }
 
   .hamb {
