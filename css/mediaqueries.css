@@ -24,3 +24,15 @@
     display: none;
   }
 }
+
+@media (min-width:486px) {
+  .about-container h1 {
+    display: flex;
+  }
+
+  .about-container h1 span {
+    display: inline-flex;
+    align-items: center;
+    padding-left: .5rem;
+  }
+}
