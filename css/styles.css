@@ -62,9 +62,9 @@ header {
 
 .nav {
   width: 100%;
-  position: fixed;
   background-color: var(--red);
   overflow: hidden;
+
 }
 
 .menu {
